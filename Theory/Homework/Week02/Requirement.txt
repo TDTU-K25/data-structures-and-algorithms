@@ -1,0 +1,1 @@
+Đề bài: Định nghĩa lớp SortedLinkedList để lưu trữ danh sách liên kết có thứ tự, Node chỉ cần định nghĩa để chứa Integer. Các phương thức cần định nghĩa bao gồm phương thức add(Integer item) và remove(Integer item).
