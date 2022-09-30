@@ -1,0 +1,16 @@
+Idea:
+- Trường hợp 1: head == null => addFirst
+- Trường hợp 2: head != null 
+    + Trường hợp 2.1: head.getNext() == null (list chỉ có duy nhất 1 phần tử => Có 2 trường hợp để thêm: thêm đầu, thêm cuối)
+	    Trường hợp 2.1.1: head.getData().compareTo(data) < 0 => addFirst
+	    Trường hợp 2.1.2: else => addLast
+    + Trường hợp 2.2 else (list có 2 phần tử hoặc nhiều hơn 2 phần tử giống nhau đều có 3 trường hợp để thêm: thêm đầu, thêm giữa, thêm cuối)
+		Trường hợp 2.2.1: if (head.getData().compareTo(data) > 0) => addFirst
+		Trường hợp 2.2.2: else {
+							Node tmp = head;
+							while (tmp.getNext().getData().compareTo(data) < 0 && tmp.getNext() != null) {
+								tmp = tmp.getNext();
+							}
+						  	Node newNode = new Node(data, tmp.getNext());
+						  	tmp.setNext(newNode);
+						  }
