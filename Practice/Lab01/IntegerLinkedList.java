@@ -6,9 +6,7 @@ public class IntegerLinkedList extends SinglyLinkedList<Integer> {
         super();
     }
 
-    public int countEven() throws NoSuchElementException {
-        if (isEmpty())
-            throw new NoSuchElementException("Empty list");
+    public int countEven() {
         int count = 0;
         Node<Integer> temp = getHead();
         while (temp != null) {
@@ -20,7 +18,7 @@ public class IntegerLinkedList extends SinglyLinkedList<Integer> {
         return count;
     }
 
-    private boolean isPrime(int n) {
+    private static boolean isPrime(int n) {
         if (n < 2) {
             return false;
         }
@@ -32,9 +30,7 @@ public class IntegerLinkedList extends SinglyLinkedList<Integer> {
         return true;
     }
 
-    public int countPrime() throws NoSuchElementException {
-        if (isEmpty())
-            throw new NoSuchElementException("Empty list");
+    public int countPrime() {
         int count = 0;
         Node<Integer> temp = getHead();
         while (temp != null) {
