@@ -1,0 +1,13 @@
+Mã đề: 01
+
+Question 1:
+    addFirst(int data): thêm một nút vào đầu danh sách
+    getLast(): trả về giá trị của nút cuối cùng trong danh sách, nếu danh sách rỗng thì trả về ngoại lệ NoSuchElementException
+    getEvenSum(): trả về tổng của các số nguyên dương chẵn trong danh sách
+
+
+Question 2:    
+    Use Stack to check if positive integer a is palindrome or not
+
+Question 3:
+    Calculate sum of even digits in positive integer a by recursion method

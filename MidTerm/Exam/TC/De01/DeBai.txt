@@ -1,0 +1,13 @@
+Mã đề: 01
+
+Câu 1:
+    (1 điểm) getHead(): trả về nút đầu tiên của danh sách
+    (1 điểm) addFirst(int data): thêm một nút vào đầu danh sách
+    (1.5 điểm) removeLast(int data): xóa nút cuối cùng trong danh sách. Nếu danh sách rỗng thì không xóa và trả về false, ngược lại xóa nút cuối cùng và trả về true
+    (1.5 điểm) positionOfFirstEven(): trả về vị trí của phần tử chẵn đầu tiên trong danh sách. Vị trí phần tử trong danh sách bắt đầu từ 0, nghĩa là phần tử head có vị trí là 0. Trường hợp danh sách rỗng hoặc danh sách không chứa số chắn thì trả về -1
+
+Câu 2:
+    (3 điểm) Tìm UCLN của 2 số nguyên dương bằng đệ quy (sử dụng thuật toán Euclid)
+
+Câu 3:
+    (3 điểm) Sử dụng Stack để kiểm tra chuỗi có đối xứng hay không
