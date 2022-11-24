@@ -252,10 +252,7 @@ public class BST {
     // Exercise 8
     private int height(Node x) {
         if (x != null) {
-            int leftTreeHeight = height(x.getLeft());
-            int rightTreeHeight = height(x.getRight());
-
-            return Math.max(leftTreeHeight, rightTreeHeight) + 1;
+            return Math.max(height(x.getLeft()), height(x.getRight())) + 1;
         }
         return 0;
     }
