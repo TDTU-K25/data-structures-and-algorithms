@@ -1,0 +1,19 @@
+Undo: hoàn tác thao tác vừa thực hiện
+
+Ví dụ:
+- Ta có dãy số sau: 3, 1, 5
+- Bây giờ ta muốn thêm 6 vào dãy số trên thì dãy trở thành 3, 1, 5, 6
+- Giả sử lúc này ta muốn undo thao tác vùa thực hiện (thêm 6 vào dãy)
+-> Nghĩa là ta muốn dãy số ban đầu khi chưa thêm 6 vào là 3, 1, 5
+=> Trước khi thêm 6 vào dãy ta sẽ lưu lại dãy số lúc đầu (3, 1, 5) 
+Sau đó thực hiện thao tác thêm 6 vào dãy
+Sau khi thêm xong nếu ta muốn undo thao tác thì chỉ cần trả lại dãy số ta đã lưu lúc đầu
+
+Tương tự cho xóa
+
+undo vẫn có tác dụng với thao tác thêm, xóa không thành công
+
+redo: trả lại thao tác undo vừa thực hiện
+
+Empty Stack thì dùng try catch và không xử lý thao tác
+
