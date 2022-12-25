@@ -1,0 +1,1 @@
+Receipt [customerId=Q701, products=[1, 7, 10], receiptId=3]

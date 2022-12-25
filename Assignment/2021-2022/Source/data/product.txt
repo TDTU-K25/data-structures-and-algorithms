@@ -1,0 +1,10 @@
+1,Vinamilk,Milk
+2,Chicken,Meat
+3,Pork,Meat
+4,Beef,Meat
+5,Coca,Beverage
+6,Pepsi,Beverage
+7,Oishi,Snack
+8,Poca,Snack
+9,OStar,Snack
+10,Milo,Milk

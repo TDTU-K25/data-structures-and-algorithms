@@ -1,0 +1,4 @@
+Product [productId=4, productName=Beef, productType=Meat]
+Product [productId=5, productName=Coca, productType=Beverage]
+Product [productId=6, productName=Pepsi, productType=Beverage]
+Product [productId=8, productName=Poca, productType=Snack]

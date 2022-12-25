@@ -1,0 +1,3 @@
+Product [productId=3, productName=Pork, productType=Meat]
+Product [productId=8, productName=Poca, productType=Snack]
+Product [productId=9, productName=OStar, productType=Snack]
