@@ -1,0 +1,25 @@
+- Trắc nghiệm: 10 câu (3 điểm)
+
+- Thực hành (7 điểm):
+
+Một công ty vận chuyển tạo cây nhị phân tìm kiếm được định nghĩa để lưu trữ các đối tượng gói hàng Package
+
+Mỗi gói hàng Package sẽ chứa thông tin gồm country(tên quốc gia) và price(giá tiền)
+
+Các file cung cấp sẵn:
+Package.java - Chứa lớp Package và các phương thức get để lấy dữ liệu
+Main.java - Chứa các dòng lệnh để kiểm thử với testcase cho sẵn
+Node.java - Node chứa đối tượng Package. Sinh viên phải định nghĩa file này.
+data.inp - Chứa dữ liệu để đọc vào cây nhị phân. (format dòng theo thứ tự là country,price)
+
+Sinh viên định nghĩa lớp Node theo sơ đồ lớp bên trên với phương thức khởi tạo có tham số là this.package = package và left = right = null.
+
+Lớp BST đã được định nghĩa sẵn các phương thức public để gọi đến root, sinh viên đọc hiểu mã nguồn và định nghĩa vào các phương thức còn trống.
+
+1) (2 điểm) private Node insert(Node node, Package pkg) để thêm một node chứa đối tượng Package vào cây. Thuộc tính để xét khi insert là giá tiền (price) của gói hàng. Cây nhị phân tìm kiếm mang tính chất giá trị của các nút bên trái sẽ bé hơn giá trị nút đang xét và giá trị các nút bên phải sẽ lớn hơn hoặc bằng các nút đang xét. Trong file Main.java cung cấp sẵn các phương thức đọc file gọi đến phương thức insert của cây. Sinh viên làm đúng câu này thì các câu bên dưới mới được tính điểm.
+
+2) (1 điểm) private Node findMin(Node node) để tìm ra Node chứa gói hàng có giá tiền nhỏ nhất
+
+3) (2 điểm) Hiện thức phương thức totallyCountry(Node node, String country): tính tổng giá tiền của một quốc gia
+
+4) (2 điểm) private void findCountriesByPrice(Node node, int price, ArrayList<String> countries) để tìm ra các quốc gia chứa gói hàng có giá tiền trùng khớp với giá trị price truyền vào và thêm vào danh sách countries
